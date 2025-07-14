@@ -1,0 +1,30 @@
+.profile-container {
+  margin-left: 220px;
+  padding: 30px;
+}
+
+.profile-card {
+  background-color: #f4f4f4;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background: #d94444;
+}

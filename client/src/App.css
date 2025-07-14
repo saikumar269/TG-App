@@ -1,0 +1,48 @@
+.app {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+  
+}
+
+aside {
+  width: 200px;
+  background-color: #e0e0e0;
+  padding: 15px;
+  height: 100%;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside li {
+  margin: 10px 0;
+}
+
+aside a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+
+
+

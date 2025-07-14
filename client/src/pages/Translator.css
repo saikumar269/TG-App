@@ -1,0 +1,210 @@
+.translator-wrapper {
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.uploadd-section {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.upload-section h3,
+.translation-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dotted-line {
+  border-top: 2px dotted #ccc;
+  margin-bottom: 20px;
+}
+
+.upload-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+}
+
+.url-input-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.url-input-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.fetch-btn {
+  background-color: #ffc107; /* yellow */
+  color: #0055a5;            /* blue text */
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.translation-section .filename-display {
+  margin: 10px 0 20px;
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
+}
+
+.editor-grid {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.editor-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-pane h4 {
+  margin-bottom: 8px;
+}
+
+.editor-pane textarea {
+  height: 250px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.right-buttons {
+  position: absolute;
+  right: -160px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+}
+
+.btn.save {
+  background-color: #ffc107;
+  color: #0055a5;
+}
+
+.btn.submit {
+  background-color: #ffffff;
+  color: #0055a5;
+  border: 1px solid #0055a5;
+}
+
+.btn.summarize {
+  align-self: flex-start;
+  background: white;
+  color: #0055a5;
+  border: 1px solid #0055a5;
+}
+
+.upload-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.upload-card {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: 2px dotted #007bff;
+  border-radius: 6px;
+  color: #007bff;
+  font-weight: 500;
+  background-color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.upload-card:hover {
+  background-color: #e6f2ff;
+  border-color: #0056cc;
+}
+
+.upload-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.card-label {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.heading {
+  font-size: 31px;
+  color: #0055a5;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.description {
+      font-size: 14px;
+  margin-bottom: 20px;
+  
+  color: #3d3939;
+}
+
+.hr-line {
+    color:red;
+  margin: 20px 0;
+}
+
+.btn.download {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.btn.download:hover {
+  background-color: #449d48;
+}

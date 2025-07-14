@@ -1,0 +1,80 @@
+.page-content {
+  margin-left: 290px;
+  padding: 25px;
+  width: calc(100% - 290px);
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.dashboard {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+  margin-left: 30px;
+}
+
+.dashboard h1 {
+  color: #0055a5;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.cards-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.cardd {
+  flex: 1;
+  background: linear-gradient(to right, #0055a5, #1a84b9); /* Gradient from dark blue to light blue */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+
+.cardd:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.05);
+}
+
+.cardd img {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+}
+
+.cardd strong {
+  font-size: 22px;
+  display: block;
+  margin-top: 5px;
+}
+
+.charts-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.chart-box {
+  flex: 1;
+  height: 200px;
+  background: #f3f3f3;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
